@@ -1,4 +1,4 @@
-## BookSale: Sua Livraria Online Personalizada!
+## BookSale: Sua Livraria Online Personalizada! - Imersão Dev com Google Gemini
 ** Sobre o Projeto **
 
 O BookSale é uma aplicação web simples e intuitiva que visa ajudar os amantes da leitura a encontrar os livros perfeitos para seus gostos. Com ele, você pode:
