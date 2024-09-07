@@ -29,35 +29,3 @@ searchInput.addEventListener('keydown', (event) => {
         performSearch(searchTerm);
     }
 });
-
-//======================================================================
-
-function buscarLivros() {
-    const genero = document.getElementById('inputGenre').value;
-    const publico = document.querySelector('inputPublic').value;
-    const valorMaximo = document.getElementById('inputValor').value;
-
-    const url = `https://www.googleapis.com/books/v1/volumes?q=${genero}+${publico}&maxResults=40`; // Adapte a URL para a API escolhida
-
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            // Processar os dados da API e exibir os resultados
-            const resultados = document.getElementById('resultados');
-            resultados.innerHTML = ''; // Limpar resultados anteriores
-
-            data.items.forEach(item => {
-                const livro = item.volumeInfo;
-                const divLivro = document.createElement('div');
-                divLivro.innerHTML = `
-                    <h2>${livro.title}</h2>
-                    <p>Autor: ${livro.authors}</p>
-                    <p>Preço: ${livro.saleInfo.saleability === 'FOR_SALE' ? livro.saleInfo.retailPrice.amount : 'Não disponível'}</p>
-                `;
-                resultados.appendChild(divLivro);
-            });
-        })
-        .catch(error => {
-            console.error('Erro ao buscar livros:', error);
-        });
-}
