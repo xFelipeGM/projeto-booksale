@@ -34,7 +34,7 @@ dados.js: Arquivo JSON contendo os dados dos livros (pode ser substituído por u
 ** Começando a Usar**
 
 Clone o repositório:
-git clone https://github.com/seu-usuario/BookSale.git
+git clone [https://github.com/seu-usuario/BookSale.git](https://github.com/xFelipeGM/projeto-booksale)
 
 Abra o projeto: Abra os arquivos HTML em seu navegador.
 Explore as funcionalidades: Utilize a busca por gênero e os filtros de preço para encontrar os livros que você procura.
