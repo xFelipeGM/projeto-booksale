@@ -1,5 +1,5 @@
-BookSale: Sua Livraria Online Personalizada!
-## Sobre o Projeto
+## BookSale: Sua Livraria Online Personalizada!
+** Sobre o Projeto **
 
 O BookSale é uma aplicação web simples e intuitiva que visa ajudar os amantes da leitura a encontrar os livros perfeitos para seus gostos. Com ele, você pode:
 
@@ -7,7 +7,7 @@ Pesquisar por gênero: Descubra os melhores livros de fantasia, ficção cientí
 Filtrar por preço: Encontre livros que caibam no seu bolso.
 Explorar os destaques: Veja os livros mais populares e bem avaliados.
 
-** Tecnologias Utilizadas**
+** Tecnologias Utilizadas **
 
 HTML: Estrutura da página.
 CSS: Estilização da interface.
