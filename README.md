@@ -6,16 +6,19 @@ O BookSale é uma aplicação web simples e intuitiva que visa ajudar os amantes
 Pesquisar por gênero: Descubra os melhores livros de fantasia, ficção científica, terror e muito mais!
 Filtrar por preço: Encontre livros que caibam no seu bolso.
 Explorar os destaques: Veja os livros mais populares e bem avaliados.
+
 ** Tecnologias Utilizadas**
 
 HTML: Estrutura da página.
 CSS: Estilização da interface.
 JavaScript: Lógica da aplicação, interações com o usuário e manipulação do DOM.
-️ Como Funciona
+️ 
+Como Funciona
 
 Página Inicial: Apresenta uma busca simples por gênero e exibe os resultados de forma organizada.
 Página de Promoções: Permite filtrar livros por preço, gênero e público-alvo.
 Página de Resultados: Mostra os livros que correspondem aos critérios de busca, com informações como título, autor, preço e link para compra.
+
 ⚙️ Estrutura do Projeto
 
 index.html: Página principal com a busca por gênero.
