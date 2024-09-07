@@ -36,6 +36,8 @@ dados.js: Arquivo JSON contendo os dados dos livros (pode ser substituído por u
 Clone o repositório:
 git clone [https://github.com/seu-usuario/BookSale.git](https://github.com/xFelipeGM/projeto-booksale)
 
+Link do projeto no Vercel: https://projeto-booksale.vercel.app/index.html
+
 Abra o projeto: Abra os arquivos HTML em seu navegador.
 Explore as funcionalidades: Utilize a busca por gênero e os filtros de preço para encontrar os livros que você procura.
 Em breve será implantada uma API que permite a adição de livros com outros públicos-alvo e preços em tempo real que estão armazenados no banco de dados.
